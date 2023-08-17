@@ -1,4 +1,4 @@
-import { BsToggleOn } from 'react-icons/Bs';
+import { BsToggle2On } from 'react-icons/Bs';
 
 
 const Find = () => {
@@ -11,7 +11,7 @@ const Find = () => {
           <input type="text" name="speciality" id="speciality" placeholder="Speciality"/>
         </div>
         <div className="find-cta">
-          <div className="toggle"><p>Available </p><BsToggleOn className='toggle-icon'/></div> 
+          <div className="toggle"><p>Available </p><BsToggle2On className='toggle-icon'/></div> 
           <button type="button">Search</button>
         </div>
       </div>
